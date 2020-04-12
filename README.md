@@ -4,7 +4,7 @@ Xcode extension adds menu commands to Xcode under "Editor" menu item. The comman
 **Installation:**
 * Open .app file (It's under Products folder in repository, and can be generated from Xcode too)
 * Enable extension from Preferences
-* Copy .app file to Applications, or any other place
+* Save .app file under Applications, or in any other safe place
 
 ![Installation](https://github.com/ahmedabdelkarim/Base64XcodeExtension-macOS/blob/master/Screenshots/installation.jpg)
 
