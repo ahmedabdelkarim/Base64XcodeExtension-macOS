@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C72579222D511500116B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C72578222D511500116B5F /* AppDelegate.swift */; };
+		F5C7257B222D511900116B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C7257A222D511900116B5F /* Assets.xcassets */; };
+		F5C7257E222D511900116B5F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C7257C222D511900116B5F /* MainMenu.xib */; };
+		F5C7258D222D517500116B5F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5C7258C222D517500116B5F /* Cocoa.framework */; };
+		F5C72590222D517500116B5F /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7258F222D517500116B5F /* SourceEditorExtension.swift */; };
+		F5C72592222D517500116B5F /* EncodeToBase64String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C72591222D517500116B5F /* EncodeToBase64String.swift */; };
+		F5C72597222D517500116B5F /* Base64 Xcode Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F5C7258A222D517400116B5F /* Base64 Xcode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5C7259D222D554C00116B5F /* DecodeToNormalString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C7259C222D554C00116B5F /* DecodeToNormalString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B41E44222D7ECC00AA9E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C7256D222D511500116B5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C72589222D517400116B5F;
+			remoteInfo = Base64Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5C7259B222D517500116B5F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F5C72597222D517500116B5F /* Base64 Xcode Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5C72575222D511500116B5F /* Base64 Xcode Extension App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base64 Xcode Extension App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C72578222D511500116B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5C7257A222D511900116B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C7257D222D511900116B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F5C7257F222D511900116B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C72580222D511900116B5F /* ExtensionInstallerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExtensionInstallerApp.entitlements; sourceTree = "<group>"; };
+		F5C7258A222D517400116B5F /* Base64 Xcode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Base64 Xcode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C7258C222D517500116B5F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F5C7258F222D517500116B5F /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		F5C72591222D517500116B5F /* EncodeToBase64String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeToBase64String.swift; sourceTree = "<group>"; };
+		F5C72593222D517500116B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C72594222D517500116B5F /* Base64XcodeExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Base64XcodeExtension.entitlements; sourceTree = "<group>"; };
+		F5C7259C222D554C00116B5F /* DecodeToNormalString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeToNormalString.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C72572222D511500116B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C72587222D517400116B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C7258D222D517500116B5F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C7256C222D511500116B5F = {
+			isa = PBXGroup;
+			children = (
+				F5C72577222D511500116B5F /* ExtensionInstallerApp */,
+				F5C7258E222D517500116B5F /* Base64XcodeExtension */,
+				F5C7258B222D517500116B5F /* Frameworks */,
+				F5C72576222D511500116B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C72576222D511500116B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C72575222D511500116B5F /* Base64 Xcode Extension App.app */,
+				F5C7258A222D517400116B5F /* Base64 Xcode Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C72577222D511500116B5F /* ExtensionInstallerApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5C72578222D511500116B5F /* AppDelegate.swift */,
+				F5C7257A222D511900116B5F /* Assets.xcassets */,
+				F5C7257C222D511900116B5F /* MainMenu.xib */,
+				F5C7257F222D511900116B5F /* Info.plist */,
+				F5C72580222D511900116B5F /* ExtensionInstallerApp.entitlements */,
+			);
+			path = ExtensionInstallerApp;
+			sourceTree = "<group>";
+		};
+		F5C7258B222D517500116B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5C7258C222D517500116B5F /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5C7258E222D517500116B5F /* Base64XcodeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F5C7258F222D517500116B5F /* SourceEditorExtension.swift */,
+				F5C72591222D517500116B5F /* EncodeToBase64String.swift */,
+				F5C7259C222D554C00116B5F /* DecodeToNormalString.swift */,
+				F5C72593222D517500116B5F /* Info.plist */,
+				F5C72594222D517500116B5F /* Base64XcodeExtension.entitlements */,
+			);
+			path = Base64XcodeExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C72574222D511500116B5F /* ExtensionInstallerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C72583222D511900116B5F /* Build configuration list for PBXNativeTarget "ExtensionInstallerApp" */;
+			buildPhases = (
+				F5C72571222D511500116B5F /* Sources */,
+				F5C72572222D511500116B5F /* Frameworks */,
+				F5C72573222D511500116B5F /* Resources */,
+				F5C7259B222D517500116B5F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B41E45222D7ECC00AA9E4A /* PBXTargetDependency */,
+			);
+			name = ExtensionInstallerApp;
+			productName = Base64;
+			productReference = F5C72575222D511500116B5F /* Base64 Xcode Extension App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C72589222D517400116B5F /* Base64XcodeExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C72598222D517500116B5F /* Build configuration list for PBXNativeTarget "Base64XcodeExtension" */;
+			buildPhases = (
+				F5C72586222D517400116B5F /* Sources */,
+				F5C72587222D517400116B5F /* Frameworks */,
+				F5C72588222D517400116B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Base64XcodeExtension;
+			productName = Base64Extension;
+			productReference = F5C7258A222D517400116B5F /* Base64 Xcode Extension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C7256D222D511500116B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = AhmedAbdelkarim;
+				TargetAttributes = {
+					F5C72574222D511500116B5F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
+					};
+					F5C72589222D517400116B5F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = F5C72570222D511500116B5F /* Build configuration list for PBXProject "Base64XcodeExtension" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C7256C222D511500116B5F;
+			productRefGroup = F5C72576222D511500116B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C72574222D511500116B5F /* ExtensionInstallerApp */,
+				F5C72589222D517400116B5F /* Base64XcodeExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C72573222D511500116B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C7257B222D511900116B5F /* Assets.xcassets in Resources */,
+				F5C7257E222D511900116B5F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C72588222D517400116B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C72571222D511500116B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C72579222D511500116B5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C72586222D517400116B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C72590222D517500116B5F /* SourceEditorExtension.swift in Sources */,
+				F5C72592222D517500116B5F /* EncodeToBase64String.swift in Sources */,
+				F5C7259D222D554C00116B5F /* DecodeToNormalString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B41E45222D7ECC00AA9E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C72589222D517400116B5F /* Base64XcodeExtension */;
+			targetProxy = F5B41E44222D7ECC00AA9E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5C7257C222D511900116B5F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C7257D222D511900116B5F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C72581222D511900116B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C72582222D511900116B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F5C72584222D511900116B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExtensionInstallerApp/ExtensionInstallerApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7772T4P58;
+				INFOPLIST_FILE = "$(SRCROOT)/ExtensionInstallerApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedabdelkarim.apps.Base64XcodeExtensionApp;
+				PRODUCT_NAME = "Base64 Xcode Extension App";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F5C72585222D511900116B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ExtensionInstallerApp/ExtensionInstallerApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7772T4P58;
+				INFOPLIST_FILE = "$(SRCROOT)/ExtensionInstallerApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedabdelkarim.apps.Base64XcodeExtensionApp;
+				PRODUCT_NAME = "Base64 Xcode Extension App";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F5C72599222D517500116B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Base64XcodeExtension/Base64XcodeExtension.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M658942P2B;
+				INFOPLIST_FILE = "$(SRCROOT)/Base64XcodeExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedabdelkarim.apps.Base64XcodeExtensionApp.Base64XcodeExtension;
+				PRODUCT_NAME = "Base64 Xcode Extension";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F5C7259A222D517500116B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Base64XcodeExtension/Base64XcodeExtension.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M658942P2B;
+				INFOPLIST_FILE = "$(SRCROOT)/Base64XcodeExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedabdelkarim.apps.Base64XcodeExtensionApp.Base64XcodeExtension;
+				PRODUCT_NAME = "Base64 Xcode Extension";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C72570222D511500116B5F /* Build configuration list for PBXProject "Base64XcodeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C72581222D511900116B5F /* Debug */,
+				F5C72582222D511900116B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C72583222D511900116B5F /* Build configuration list for PBXNativeTarget "ExtensionInstallerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C72584222D511900116B5F /* Debug */,
+				F5C72585222D511900116B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C72598222D517500116B5F /* Build configuration list for PBXNativeTarget "Base64XcodeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C72599222D517500116B5F /* Debug */,
+				F5C7259A222D517500116B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C7256D222D511500116B5F /* Project object */;
+}
